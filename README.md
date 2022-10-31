@@ -1,6 +1,6 @@
-# pretex
+# prt
 
-pretex replaces full-width characters in a tex file.
+prt replaces full-width characters in a tex file.
 
 | src     | dest |
 | ------- | ---- |
@@ -9,25 +9,25 @@ pretex replaces full-width characters in a tex file.
 
 ## Installation
 
-`go install github.com/kaiiy/pretex@latest`
+`go install github.com/kaiiy/prt@latest`
 
 ## Usages
 
-### Execute `pretex` command
+### Execute `prt` command
 
-`pretex <src-file-path>`
+`prt <src-file-path>`
 
-e.g. `pretex ./src/main.tex`
+e.g. `prt ./src/main.tex`
 
-### Use pretex api with golang
+### Use prt api with golang
 
 ```go
 import (
-    pretex "github.com/kaiiy/pretex/lib"
+    prt "github.com/kaiiy/prt/lib"
 )
 var srcText string;
 
-destText := pretex.Parse(srcText)
+destText := prt.Parse(srcText)
 ```
 
 ## Conversion Rules
