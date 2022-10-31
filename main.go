@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("usage: pretex <tex-file-path>")
+		fmt.Println("usage: prt <tex-file-path>")
 		return
 	}
 
